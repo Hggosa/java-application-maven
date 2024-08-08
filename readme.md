@@ -18,6 +18,13 @@ java -jar target/*.jar
 java -jar -Dserver.port=8082 target/spring-petclinic-2.7.3.jar
 ```
 
+### Helpful meven commands 
+```
+mvn test
+mvn clean install -DskipTests=true
+mvn clean install
+```
+
 You can then access petclinic here: http://localhost:8080/
 
 <img width="1042" alt="petclinic-screenshot" src="https://cloud.githubusercontent.com/assets/838318/19727082/2aee6d6c-9b8e-11e6-81fe-e889a5ddfded.png">
